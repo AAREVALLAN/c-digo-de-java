@@ -1,0 +1,12 @@
+package com.umg.test;
+
+import com.umg.dao.TestDao;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//TestDao.estudiante("PAPITO", "CHULO", "CTRIPIO", "PARTICIPIO", "2040-07-30", "masculino", "30803660", "798", "660", "her789");
+TestDao.eliminarEstudiante(14);
+	}
+
+}
